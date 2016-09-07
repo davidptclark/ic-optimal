@@ -7,8 +7,8 @@ set more off
 log using lag.log, replace;
 scalar aicbest= 1000000;
 scalar bicbest= 1000000;
-*mat aic=J(1,5,0);
-*mat bic=J(1,6,0);
+mat aic=J(1,5,0);
+mat bic=J(1,6,0);
 
 forv i=1(1)5{;
 	forv j=1(1)5{;
